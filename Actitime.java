@@ -106,7 +106,8 @@ public class Actitime {
 		// Add extra rows
 		WebElement element= driver.findElement(By.xpath("//*[@id='createTasksPopup_content']/div[1]/div[1]/div/div[3]/div/div[2]/div[1]"));
 		if(element.isDisplayed()){
-			//Add three rows
+			
+			//Add three rows in webtable
 			
 			for(int k=1; k<4; k++){
 				element.click();
